@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1039802031166",
+    "firebase_url": "https://lifeshare-f0a76.firebaseio.com",
+    "project_id": "lifeshare-f0a76",
+    "storage_bucket": "lifeshare-f0a76.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039802031166:android:f082bb722c3eef1a6c056f",
+        "android_client_info": {
+          "package_name": "com.piyush025.lifeshare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039802031166-s9op8es3gn57m1n45vlu2mrmk2o2cm69.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.piyush025.lifeshare",
+            "certificate_hash": "2f31c3c43f36a7d1c31f4361fd6400ac787b763c"
+          }
+        },
+        {
+          "client_id": "1039802031166-emt5e1ahvt0cck2v9iijcjpbki6ij25d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQa6X7q44xHWEhDxiygsNjwQCTVcv0GEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1039802031166-emt5e1ahvt0cck2v9iijcjpbki6ij25d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

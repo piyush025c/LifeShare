@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BankRegister"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/registration"
+        android:textSize="30dp"
+        android:text="BANK REGISTRATION"
+        android:textColor="#ff0000"
+        android:alpha="0.7"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bank Name"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:maxLines="1"
+        android:id="@+id/bankname"
+        android:padding="5dp"
+        android:inputType="textFilter|textNoSuggestions"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Blood Bank Id"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:maxLines="1"
+        android:id="@+id/bankid"
+        android:padding="5dp"
+        android:inputType="textFilter|textNoSuggestions"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact Number"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:maxLines="1"
+        android:id="@+id/bankmob"
+        android:inputType="number"
+        android:padding="5dp"
+        />
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Address"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:maxLines="1"
+        android:id="@+id/regbankEmail"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:maxLines="1"
+        android:id="@+id/regbankAddress"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password "
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:maxLines="1"
+        android:id="@+id/regbankPassword"
+        android:inputType="textPassword"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:text="Submit Details"
+        android:id="@+id/registerbank"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Registerd Bank?"
+        android:textColor="#ff0000"
+        android:id="@+id/gotobankLogin"
+        />
+
+
+
+
+</LinearLayout>

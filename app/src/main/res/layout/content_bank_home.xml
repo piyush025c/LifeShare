@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".BankHome"
+    tools:showIn="@layout/app_bar_bank_home"
+    android:orientation="vertical">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff0000"
+        app:tabTextColor="#ffffff"
+        app:tabSelectedTextColor="#000000">
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toBottomOf="@+id/tabLayout2"
+        tools:layout_editor_absoluteX="8dp" />
+
+</LinearLayout>

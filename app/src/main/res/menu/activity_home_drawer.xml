@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/open_map"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Open Blood Bank in Maps" />
+        <item
+            android:id="@+id/user_detail"
+            android:icon="@drawable/badge"
+            android:title="User Detail" />
+
+        <item
+            android:id="@+id/developers"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Developers" />
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/book"
+                android:title="About Us" />
+            <item
+                android:id="@+id/tc"
+                android:icon="@drawable/shield"
+                android:title="Terms and Conditions" />
+        </menu>
+    </item>
+
+</menu>
